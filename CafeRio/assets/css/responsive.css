@@ -210,7 +210,9 @@
 	.branches-list {
     margin-top: 35px;
 	}
-
+	.branch-area {
+		margin-top: 35px;
+	}
 }
 
 /* Mobile Layout: 320px. */
