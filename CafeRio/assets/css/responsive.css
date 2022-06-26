@@ -1,5 +1,6 @@
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) {
+	
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
@@ -38,7 +39,7 @@
 		padding: 250px 0 0 0;
 	}
 	.contact p {
-		font-size: 13px;
+		font-size: 30px;
 	}
 }
 /* Tablet Layout: 768px. */
@@ -208,10 +209,20 @@
 		text-align: center
 	}
 	.branches-list {
-    margin-top: 35px;
+		margin-top: 35px;
 	}
 	.branch-area {
 		margin-top: 35px;
+	}
+	.schedule-section h2 {
+		font-size: 4.5vw;
+	}
+	.schedule_list p {
+		font-size: 3.5vw;
+	}
+
+	.call-to-action{
+		margin-top: 60px;
 	}
 }
 
@@ -592,20 +603,44 @@
 		padding: 210px 0 50px 0;
 	}
 	.schedule_list p {
-		font-size: 6.5vw;
+		font-size: 5.5vw;
 		text-align: center
 	}
 	.schedule-section h2 {
-		font-size: 10.5vw;
-		padding-bottom: 35px;
+		font-size: 8.5vw;
+		margin-top: 50px;
+		margin-bottom: 50px;
 	}
 	.col-lg-4.d-md-block.call-to-action, .branches-list  {
-		margin-top: 35px;
+		margin-bottom: 35px;
 	}
 	.sect_pad {
 		padding: 20px 0;
 	}
+		.branch-area {
+		margin-top: 35px;
+	}
+
+	#top-menu {
+		display:none;
+	}
+	
+	.slicknav_menu {
+		display:block;
+		z-index: 1000;
+		position: absolute;
+		right: 15px;
+		top: 80px;
+	}
+	.mission-single{
+		margin-bottom: 25px;
+	}
+	.about-img{margin-bottom : 25px}
+	h2.promo-call{
+		display : block
+	}
 }
+
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
 	.hero-area div.hero-form {

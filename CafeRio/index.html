@@ -14,6 +14,7 @@
 	<!-- google font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
 	<!-- fontawesome -->
 	<link rel="stylesheet" href="assets/css/all.min.css">
 	<!-- bootstrap -->
@@ -27,11 +28,10 @@
 	<link rel="stylesheet" href="assets/css/animate.css">
 	<!-- Datepicker css -->
 	<link rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css">
-
+	<!-- Slicknav css -->
+	<link rel="stylesheet" href="assets/css/slicknav.min.css" />
 	<!-- fancybox css -->
 	<link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
-	<!-- mean menu css -->
-	<link rel="stylesheet" href="assets/css/meanmenu.min.css">
 	<!-- main style -->
 	<link rel="stylesheet" href="assets/css/main.css">
 	<!-- responsive -->
@@ -48,77 +48,42 @@
     </div>
     <!--PreLoader Ends-->
 	
-	<!-- header -->
-	<div class="top-header-area" id="sticker">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-sm-12 text-center">
-					<div class="main-menu-wrap d-flex align-items-center">
-						<div class="site-logo-box col-lg-3">
-							<!-- logo -->
-							<div class="site-logo">
-								<a href="index.html">
-									<img src="assets/img/cafe-rio-logo-white-version-180x180.png" alt="">
-								</a>
+	<!-- header -->	
+	<section>
+		<div class="top-header-area" id="sticker">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-sm-12 text-center">
+						<div class="main-menu-wrap d-flex align-items-center">
+							<div class="site-logo-box col-lg-3">
+								<!-- logo -->
+								<div class="site-logo">
+									<a href="index.html">
+										<img src="assets/img/cafe-rio-logo-white-version-180x180.png" alt="">
+									</a>
+								</div>
+								<!-- logo -->
 							</div>
-							<!-- logo -->
-						</div>
-						<div class="main-menu-box col-lg-9">
-						<!-- menu start -->
-							<nav class="main-menu">
-								<ul>
-									<li class="current-list-item"><a href="#">HOME</a></li>
-									<li><a href="#">RESERVATION</a></li>
-									<li><a href="#">MENUS</a>
-										<ul class="sub-menu">
-											<li><a href="#">Zigatola Branch</a></li>
-											<li><a href="#">Uttara Branch</a></li>
-											<li><a href="#">Mirpur Branch</a></li>
-										</ul>
-									</li>
-									<li>
-										<a href="#">SERVICES</a>
-									</li>
-									<li>
-										<a href="#">BLOG</a>
-									</li>
-									<li>
-										<a href="#">ABOUT</a>
-									</li>
-									<li>
-										<a href="contact.html">CONTACT</a>
-									</li>
-								</ul>
-							</nav>
-							<div class="mobile-menu"></div>
-						<!-- menu end -->
+							<div class="main-menu-box col-lg-9">
+							<!-- menu start -->
+								<nav class="main-menu">
+									<ul id="top-menu">
+										<li class="current-list-item"><a href="#">HOME</a></li>
+										<li><a href="index.html">RESERVATION</a></li>
+										<li><a href="menus.html">MENUS</a></li>
+										<li><a href="about.html">ABOUT</a></li>
+										<li><a href="contact.html">CONTACT</a></li>
+									</ul>
+								</nav>
+							<!-- menu end -->
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 	<!-- end header -->
-	
-	<!-- search area -->
-	<div class="search-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<span class="close-btn"><i class="fas fa-window-close"></i></span>
-					<div class="search-bar">
-						<div class="search-bar-tablecell">
-							<h3>Search For:</h3>
-							<input type="text" placeholder="Keywords">
-							<button type="submit">Search <i class="fas fa-search"></i></button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end search area -->
-
 	<!-- home page slider -->
 	<section class="slider-area">
 		<div class="container-fluid">
@@ -175,42 +140,41 @@
 		</div>
 	</section>
 	<!-- end home page slider -->
-<section class="hero-pattern-area">
-	<div class="hero-pattern-img">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-lg-12">
-			
+	<section class="hero-pattern-area">
+		<div class="hero-pattern-img">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">
+				
+				</div>
 			</div>
 		</div>
-	</div>
-	</div>
-</section>
+		</div>
+	</section>
 	<!-- contacts section -->
 	<section class="contact sect_pad">
 		<div class="opening-hours-section">
-			<div class="schedule-section" class="container-fluid">
+			<div class="container-fluid schedule-section">
 				<div class="row justify-content-center">
-					<div class="col-lg-4 col-md-6 mb-5">
-						<h2>Open <span>Daily</span></h2>
+					<div class="col-lg-4 col-md-6">
+						<h2 style="font-family: 'Cookie', cursive;">Open Daily</h2>
 					</div>
-					<div class="col-lg-4 col-md-6 schedule_list">
+					<div class="col-lg-3 col-md-6 schedule_list">
 						<p><span class="schedule-name">Lunch </span>1.00 - 4.00 pm</p>
 						<p><span class="schedule-name">Dinner </span>7.00 - 10.00 pm </p>
 					</div>
 					<div class="w-100 d-lg-none"></div>
-					<div class="col-lg-4 d-md-block call-to-action">
-						<h2>Call us<span> on </span></h2>
-						<span class="cell-number">Uttara : 01793-929230</span>
-						<span class="cell-number">Zigatola : 01961-116222</span>
-						<span class="cell-number">Mirpur : 01407-600700</span>
+					<h2 class="promo-call" style="font-family: 'Cookie', cursive;">Call Us</h2>
+					<div class="col-lg-5 d-md-block schedule_list">
+						<p><span class="schedule-name">Uttara : </span>01993 700 800</p>
+						<p><span class="schedule-name">Zigatola : </span>019 6111 6222</p>
+						<p><span class="schedule-name">Mirpur : </span>01407 600 700</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 	<!-- contacts section -->
-	
 	<!-- Branch section -->
 	<section class="branch-area sect_pad">
 		<div class="container">
@@ -258,6 +222,7 @@
 			</div>
 		</div>
 	</section>
+	<!-- End Of Branch section -->
 	<!-- Photo Gallery section -->
 	<section class="gallery_area sect_pad">
 	   <div class="container">
@@ -308,11 +273,31 @@
 				   </a>
 				</div>
 			 </div>
+			 <div class="col-md-4 col-6">
+				<div class="item mb-4">
+				   <a data-fancybox="gallery" href="assets/img/gallery/gal-07.jpeg">
+				   <img src="assets/img/gallery/gal-07-small.jpg" class="img-fluid" alt="gallery_image">
+				   </a>
+				</div>
+			 </div>
+			 <div class="col-md-4 col-6">
+				<div class="item mb-4">
+				   <a data-fancybox="gallery" href="assets/img/gallery/gal-08.jpeg">
+				   <img src="assets/img/gallery/gal-08-small.jpg" class="img-fluid" alt="gallery_image">
+				   </a>
+				</div>
+			 </div>
+			 <div class="col-md-4 col-6">
+				<div class="item mb-4">
+				   <a data-fancybox="gallery" href="assets/img/gallery/gal-09.jpg">
+				   <img src="assets/img/gallery/gal-09-small.jpg" class="img-fluid" alt="gallery_image">
+				   </a>
+				</div>
+			 </div>
 		  </div>
 	   </div>
 	</section>
 	<!-- end photo Gallery section -->
-	
 	<!-- testimonail-section -->
 	<section class="testimonial sect_pad">
 		<div class="container ">
@@ -333,7 +318,6 @@
 		</div>
 	</section>
 	<!-- end testimonail-section -->
-
 	<!-- footer -->
 	<div class="footer-area">
 		<div class="container">
@@ -351,9 +335,9 @@
 						<h2 class="widget-title">Get in Touch</h2>
 						<ul>
 							<li>thecaferioltd@gmail.com</li>
-							<li>Uttara: +880 1793-929230</li>
-							<li>Zigatola: +880 1961-116222</li>
-							<li>Mirpur: +880 1407-600700</li>
+							<li>Uttara: 𝟎𝟏𝟗𝟗𝟑 𝟕𝟎𝟎 𝟖𝟎𝟎</li>
+							<li>Zigatola: 𝟎𝟏𝟗 𝟔𝟏𝟏𝟏 𝟔𝟐𝟐𝟐</li>
+							<li>Mirpur: 𝟎𝟏𝟒𝟎𝟕 𝟐𝟎𝟎 𝟑𝟎𝟎</li>
 						</ul>
 					</div>
 				</div>
@@ -362,10 +346,9 @@
 						<h2 class="widget-title">Pages</h2>
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Shop</a></li>
-							<li><a href="#">News</a></li>
-							<li><a href="#">Contact</a></li>
+							<li><a href="menus.html">Menus</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -383,7 +366,6 @@
 		</div>
 	</div>
 	<!-- end footer -->
-	
 	<!-- copyright -->
 	<div class="copyright">
 		<div class="container">
@@ -404,12 +386,12 @@
 		</div>
 	</div>
 	<!-- end copyright -->
-	
 	<!-- jquery -->
 	<script src="assets/js/jquery-1.11.3.min.js"></script>
 	<!-- bootstrap -->
 	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-
+	<!-- Slicknav -->
+	<script src="assets/js/jquery.slicknav.min.js"></script>
 	<!-- owl carousel -->
 	<script src="assets/js/owl.carousel.min.js"></script>
 	<!-- Datepicker -->
@@ -420,13 +402,10 @@
 	<script src="assets/js/jquery.fancybox.min.js"></script>
 	<!-- magnific popup -->
 	<script src="assets/js/jquery.magnific-popup.min.js"></script>
-	<!-- mean menu -->
-	<script src="assets/js/jquery.meanmenu.min.js"></script>
 	<!-- sticker js -->
 	<script src="assets/js/sticker.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
-
 </body>
 
 </html>
